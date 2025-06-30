@@ -14,7 +14,7 @@ Pages:
 git clone https://github.com/Mihasik556/HTML-Website-with-many-pages.git
 cd HTML-Website-with-many-pages
 ```
-2. Open index.html in your browser.
+2. Open home.html in your browser.
 
 # Project URL:
 https://roadmap.sh/projects/basic-html-website
