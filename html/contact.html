@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <meta name="description" content="My first website with many pages" />
+        <meta name="keywords" content="Website, pages, html" />
+        <meta name="author" content="John Doe" />
+        <meta name="url" content="https://www.example.com" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Contact" />
+        <meta
+            property="og:description"
+            content="My first website with many pages"
+        />
+        <meta property="og:image" content="https://www.example.com/image.jpg" />
+        <meta
+            property="og:url"
+            content="https://www.example.com/contact.html"
+        />
+        <link rel="canonical" href="https://www.example.com/contact.html" />
+        <link rel="icon" href="../images/favicon.jpg" type="image/jpg" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img
+                    id="logo"
+                    src="../images/site-avatar.jpg"
+                    alt="Icon"
+                    width="40"
+                    height="40"
+                />
+                <h4>Your Name</h4>
+                <ul id="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <h1 class="subheading">Contact Page</h1>
+                <p class="under-h1">
+                    if you want to reach me and ask something
+                </p>
+            </section>
+            <hr />
+            <section id="form" class="form-box">
+                <h3>To Contact Me Use The Form Below:</h3>
+                <form
+                    action="https://httpbin.org/get"
+                    method="get"
+                    style="width: 300px"
+                >
+                    <fieldset>
+                        <legend>Your Information</legend>
+                        <label for="name">Name: </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Jane Doe"
+                        />
+                        <br /><br />
+                        <label for="email">Email: </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example123@gmail.com"
+                        />
+                        <br /><br />
+                        <label for="message">Your Message:</label>
+                        <br />
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="25"
+                            rows="5"
+                        ></textarea>
+                        <br /><br />
+                        <button type="submit">Send</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </section>
+            <section id="info" class="my-contact-info">
+                <h3 class="subheading">Or You Can Reach Me By Yourself:</h3>
+                <p>
+                    My Phone:
+                    <a href="tel:555-555-55-555">(+555) 555-55-555</a> <br />
+                </p>
+                <p>My Email: exampleemail123@gmail.com</p>
+            </section>
+        </main>
+        <footer>
+            <h3 class="subheading copy">&copy; all rights are reserved 2025</h3>
+        </footer>
+    </body>
+</html>
